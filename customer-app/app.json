@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Repair Drive",
+    "slug": "repair-drive-customer",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "repairdrive",
+    "newArchEnabled": true,
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "pk.repairdrive.customer"
+    },
+    "android": {
+      "package": "pk.repairdrive.customer",
+      "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"]
+    },
+    "plugins": [],
+    "extra": {
+      "apiBaseUrl": "http://192.168.2.106:4000/v1",
+      "socketUrl": "http://192.168.2.106:4000"
+    }
+  }
+}
